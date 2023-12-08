@@ -1,0 +1,68 @@
+[versions]
+corektx = "1.12.0"
+appcompat = "1.6.1"
+material = "1.10.0"
+fragmentktx = "1.6.2"
+junitver = "4.12"
+dagger = "2.48.1"
+gson = "2.10.1"
+lifecycle = "2.6.2"
+coretesting = "2.2.0"
+coroutinestesting = "1.6.4"
+iomockk = "1.13.2"
+room = "2.6.0"
+coroutinescore = "1.6.4"
+retrofit2 = "2.9.0"
+logginginterceptor = "4.10.0"
+composeui = "1.5.4"
+composelifecycle = "2.6.2"
+composemateral3 = "1.1.2"
+composenavigation = "2.7.5"
+org-jetbrains-kotlin-android = "1.8.10"
+kotlinCompilerExtensionVersion = "1.5.4"
+junit = "1.1.5"
+espresso-core = "3.5.1"
+navigation = "2.7.5"
+agp = "8.1.1"
+cicerone = "7.1"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "corektx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigation" }
+com-google-android-material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentktx" }
+junit = { module = "junit:junit", version.ref = "junitver" }
+com-google-dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+com-google-daggercompiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+com-google-code-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-arch-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coretesting" }
+org-jetbrains-kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutinestesting" }
+io-mockk = { module = "io.mockk:mockk", version.ref = "iomockk" }
+io-mockkandroid = { module = "io.mockk:mockk-android", version.ref = "iomockk" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+org-jetbrains-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutinescore" }
+com-squareup-retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
+com-squareup-retrofit2converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit2" }
+com-squareup-okhttp3-logginginterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "logginginterceptor" }
+androidx-compose-ui = {module = "androidx.compose.ui:ui", version.ref = "composeui"}
+androidx-compose-ui-graphics = {module = "androidx.compose.ui:ui-graphics", version.ref = "composeui"}
+androidx-compose-ui-tooling-preview = {module = "androidx.compose.ui:ui-tooling-preview", version.ref = "composeui"}
+androidx-compose-ui-tooling-material3 = {module = "androidx.compose.animation:animation", version.ref = "composeui"}
+androidx-compose-lifecycle-viewmodel = {module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "composelifecycle"}
+androidx-lifecycle-runtime-compose = {module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "composelifecycle"}
+androidx-compose-material3 = {module = "androidx.compose.material3:material3", version.ref = "composemateral3"}
+androidx-compose-navigation = {module = "androidx.navigation:navigation-compose", version.ref = "composenavigation"}
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+com-github-terrakok-cicerone = { module = "com.github.terrakok:cicerone", version.ref = "cicerone" }
+
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }

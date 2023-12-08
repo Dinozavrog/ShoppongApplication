@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkPrimary">#232323</color>
+    <color name="darkSecondary">#333333</color>
+    <color name="darkTertiary">#4F4F4F</color>
+    <color name="yellowPrimary">#FFFFD600</color>
+    <color name="greySecondary">#E9E9E9</color>
+    <color name="greyTertiary">#F6F6F6</color>
+    <color name="greyPrimary">#9F9F9F</color>
+    <color name="greyQuaternary">#C1C1C1</color>
+    <color name="grey">#676767</color>
+    <color name="red">#E64646</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

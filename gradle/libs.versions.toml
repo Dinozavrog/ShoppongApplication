@@ -18,13 +18,14 @@ composeui = "1.5.4"
 composelifecycle = "2.6.2"
 composemateral3 = "1.1.2"
 composenavigation = "2.7.5"
-org-jetbrains-kotlin-android = "1.8.10"
+org-jetbrains-kotlin-android = "1.9.20"
 kotlinCompilerExtensionVersion = "1.5.4"
 junit = "1.1.5"
 espresso-core = "3.5.1"
 navigation = "2.7.5"
 agp = "8.1.1"
 cicerone = "7.1"
+compose-ui = "2.4.0"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "corektx" }
@@ -59,6 +60,7 @@ androidx-compose-lifecycle-viewmodel = {module = "androidx.lifecycle:lifecycle-v
 androidx-lifecycle-runtime-compose = {module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "composelifecycle"}
 androidx-compose-material3 = {module = "androidx.compose.material3:material3", version.ref = "composemateral3"}
 androidx-compose-navigation = {module = "androidx.navigation:navigation-compose", version.ref = "composenavigation"}
+androidx-compose-coil = { module = "io.coil-kt:coil-compose", version.ref = "compose-ui"}
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
 com-github-terrakok-cicerone = { module = "com.github.terrakok:cicerone", version.ref = "cicerone" }

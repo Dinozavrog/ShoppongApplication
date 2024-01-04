@@ -4,6 +4,8 @@ import android.app.Application
 import android.content.Context
 import com.example.androidlab2023.di.AppComponent
 import com.example.androidlab2023.di.DaggerAppComponent
+import com.example.feature_login.di.LoginDependsStore
+import com.example.feature_products.presentation.di.HomeDependsStore
 import com.example.navigation.di.NavigationDependsStore
 
 class ShoppingApp: Application() {
@@ -15,6 +17,8 @@ class ShoppingApp: Application() {
     override fun onCreate() {
         super.onCreate()
         NavigationDependsStore.dependencies = appComponent
+        LoginDependsStore.dependencies = appComponent
+        HomeDependsStore.dependencies = appComponent
         appComponent.inject(this)
     }
 

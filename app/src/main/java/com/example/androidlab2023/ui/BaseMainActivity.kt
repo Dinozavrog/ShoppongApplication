@@ -35,7 +35,7 @@ abstract class BaseMainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        savedInstanceState ?: viewModel.launchFirstScreen()
+        viewModel.launchFirstScreen()
 
         val activityView: View = binding.mainFragmentContainer
         toastService.setActivityView(activityView)

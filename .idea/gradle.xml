@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/feature_products" />
             <option value="$PROJECT_DIR$/feature_profile" />
             <option value="$PROJECT_DIR$/feature_toasts" />
+            <option value="$PROJECT_DIR$/feature_user_data" />
             <option value="$PROJECT_DIR$/navigation" />
           </set>
         </option>

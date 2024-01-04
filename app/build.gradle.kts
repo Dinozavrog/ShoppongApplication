@@ -44,7 +44,7 @@ android {
         viewBinding = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = libs.versions.kotlinCompilerExtensionVersion.get()
     }
     packaging {
         resources {
@@ -82,6 +82,13 @@ dependencies {
     implementation(libs.androidx.compose.navigation)
 
     implementation(project(":core"))
+    implementation(project(":core_preference"))
+    implementation(project(":core_database"))
     implementation(project(":navigation"))
     implementation(project(":feature_toasts"))
+    implementation(project(":feature_login"))
+    implementation(project(":feature_basket"))
+    implementation(project(":feature_products"))
+    implementation(project(":feature_profile"))
+    implementation(project(":feature_user_data"))
 }

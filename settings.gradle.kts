@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -25,3 +26,4 @@ include(":feature_products")
 include(":feature_basket")
 include(":feature_profile")
 include(":core_compose")
+include(":feature_user_data")

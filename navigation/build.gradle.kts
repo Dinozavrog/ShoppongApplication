@@ -57,9 +57,5 @@ dependencies {
     implementation(libs.com.github.terrakok.cicerone)
 
     implementation(project(":core"))
-    implementation(project(":feature_profile"))
-    implementation(project(":feature_basket"))
-    implementation(project(":feature_products"))
-    implementation(project(":feature_login"))
 
 }
